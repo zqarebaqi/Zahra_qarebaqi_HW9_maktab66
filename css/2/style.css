@@ -1,0 +1,200 @@
+body {
+  margin: 0;
+  color: gray;
+}
+
+.navbar {
+  overflow: auto;
+  position: relative;
+}
+
+.navs {
+  list-style-type: none;
+  position: absolute;
+  left: 450px;
+}
+.navs ul {
+  padding: 5px;
+}
+
+.navs li {
+  list-style-type: none;
+  float: left;
+  margin-left: 30px;
+}
+.navs li a {
+  text-decoration: none;
+  color: #2aa9cb;
+  font-size: 18px;
+  text-align: center;
+}
+.navs li:hover {
+  border-top: 2px solid goldenrod;
+}
+
+.navs li a:hover {
+  color: goldenrod;
+}
+
+.navbar-right {
+  display: inline-block;
+}
+.navbar-right div {
+  padding: 2px 20px;
+}
+
+.vl {
+  border-left: 2px solid rgb(140, 143, 140);
+  height: 60px;
+}
+.login,
+.allsrch {
+  margin-top: 20px;
+}
+
+.login {
+  margin-right: 10px;
+}
+.imglogo {
+  padding-left: 30px;
+  float: left;
+}
+
+.blue_nav {
+  background-color: #2aa9cb;
+  height: 50px;
+  padding: 10px;
+}
+
+.nav-text {
+  color: white;
+  margin: auto 20px;
+}
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1250px;
+}
+
+.content-texts {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.blue {
+  color: #2aa9cb;
+}
+
+.cards {
+  float: left;
+  width: 33.33%;
+}
+
+.cards img {
+  width: 100%;
+}
+
+.cards_content {
+  background-color: white;
+  margin: 10px;
+  box-shadow: 5px 5px 10px 4px #d8d8d8;
+}
+
+.content {
+  float: left;
+}
+
+.cards span {
+  display: block;
+  padding: 10px;
+}
+.button-class {
+  margin-left: 550px;
+  margin-bottom: 100px;
+  display: inline-block;
+  margin-top: 50px;
+}
+
+.button {
+  width: 130px;
+  height: 40px;
+  border: none;
+  color: white;
+  background-color: #b0d036;
+  font-size: 16px;
+}
+.form {
+  margin: 5px 100px;
+}
+.form input {
+  border: none;
+  height: 38px;
+}
+
+.email-class {
+  width: 250px;
+}
+
+.sec-nav-text {
+  font-size: 20px;
+  color: white;
+  margin: 15px 80px;
+}
+.social {
+  margin: 10px auto;
+  width: 1350px;
+  padding: 20px;
+  height: 180px;
+  color: darkgray;
+}
+.social div {
+  float: left;
+  width: 20%;
+  margin-right: 70px;
+}
+.social span {
+  font-weight: bold;
+  color: gray;
+}
+
+.social ul {
+  padding: 2px 0px;
+  margin: 0;
+}
+
+.col1 li {
+  margin-left: 12px;
+}
+.first-ul li {
+  list-style-type: decimal;
+  font-size: 14px;
+}
+
+.second-ul {
+  padding: 2px 0;
+}
+
+.second-ul li {
+  list-style-type: none;
+}
+
+.footer {
+  color: white;
+  height: 30px;
+  background-color: #2aa9cb;
+  text-align: center;
+  padding: 3px;
+}
+
+.footer span {
+  display: block;
+  padding: 4px;
+}
